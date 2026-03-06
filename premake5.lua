@@ -19,7 +19,7 @@ project "JoltPhysics"
         "Jolt"        
     }
 
-    fliter "systen:windows"
+	filter "system:windows"
         systemversion "latest"
 		staticruntime "off"
     
