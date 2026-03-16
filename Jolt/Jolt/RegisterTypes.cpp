@@ -69,6 +69,8 @@ bool VerifyJoltVersionIDInternal(uint64 inVersionID)
 
 void RegisterTypesInternal(uint64 inVersionID)
 {
+	uint64 id = JPH_VERSION_ID;
+
 	// Version check
 	if (!VerifyJoltVersionIDInternal(inVersionID))
 	{
