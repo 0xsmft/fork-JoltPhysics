@@ -8,6 +8,7 @@ project "JoltPhysics"
 
     files
 	{
+		"SaturnProfiler.cpp",
 		"Jolt/**.cpp",
 		"Jolt/**.h",
 		"Jolt/**.inl",
@@ -16,7 +17,7 @@ project "JoltPhysics"
 
     includedirs 
     {
-        "Jolt"        
+        "Jolt"
     }
 
 	filter "system:windows"
