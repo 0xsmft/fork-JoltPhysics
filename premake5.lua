@@ -43,6 +43,14 @@ project "JoltPhysics"
 		runtime "Release"
 		optimize "on"
 
+		defines 
+		{
+	        "JPH_DEBUG_RENDERER",
+            "JPH_FLOATING_POINT_EXCEPTIONS_ENABLED",
+            "JPH_EXTERNAL_PROFILE",
+			"JPH_ENABLE_ASSERTS"
+		}
+
         vectorextensions "AVX2"
         isaextensions { "BMI", "POPCNT", "LZCNT", "F16C" }
 
