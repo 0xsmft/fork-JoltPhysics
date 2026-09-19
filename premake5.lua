@@ -51,13 +51,15 @@ project "JoltPhysics"
 			"JPH_ENABLE_ASSERTS"
 		}
 
-        vectorextensions "AVX2"
-        isaextensions { "BMI", "POPCNT", "LZCNT", "F16C" }
+		filter "architecture:x86_64"
+      		vectorextensions "AVX2"
+        	isaextensions { "BMI", "POPCNT", "LZCNT", "F16C" }
 
 	filter "configurations:Dist"
 		runtime "Release"
 		optimize "on"
 		symbols "off"
 
-        vectorextensions "AVX2"
-        isaextensions { "BMI", "POPCNT", "LZCNT", "F16C" }
+		filter "architecture:x86_64"
+			vectorextensions "AVX2"
+			isaextensions { "BMI", "POPCNT", "LZCNT", "F16C" }
