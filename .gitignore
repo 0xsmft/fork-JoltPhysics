@@ -18,3 +18,12 @@ bin-int
 *.vcxproj.filters
 *.vcxproj.user
 Makefile
+
+# Xcode files
+*.pbxproj
+*.xcworkspace
+*.xcworkspacedata
+*.xcuserstate
+*.xcsettings
+**/xcschemes
+**.gputrace

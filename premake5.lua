@@ -63,3 +63,10 @@ project "JoltPhysics"
 		filter "architecture:x86_64"
 			vectorextensions "AVX2"
 			isaextensions { "BMI", "POPCNT", "LZCNT", "F16C" }
+
+	filter "action:xcode4"
+		externalincludedirs 
+		{
+			"Jolt"
+		}
+
