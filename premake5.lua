@@ -70,3 +70,7 @@ project "JoltPhysics"
 			"Jolt"
 		}
 
+	filter "system:Linux"
+		pic "On"
+		systemversion "latest"
+		staticruntime "off"
